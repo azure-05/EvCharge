@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="icon" href="img/tabicon.png">
+    <title>Login | EvCharge</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<!-- Header Element -->
+	<header>
+	<div class="navigation">
+		<a href="index.html"> <img src="img/EvChargeLogo.png" alt="logo" class="logo"> </a>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="OnlineStore.html">Online Store</a></li>
+			<li><a href="Map.html">Map</a></li>
+			<li><a href="support.html">Support</a> </li>
+			<li><a href="Login.html">Login</a></li>
+			<li> <a href="Cart.html"> <img src="img/Cart-Icon.png" width="50px"></a></li>
+		</ul>	
+	</nav>
+	
+	<hr>
+	</header>
+	
+	<main>
+	
+	<form action="action_page.php" method="post">
+		<div class="imgcontainer">
+		<img src="img/Avatar-Icon.png">
+		</div>
+		<h1 class="login-title"> Welcome </h1>
+
+		<div class="container">
+			<label for="uname"><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="uname" required> <br>
+			<br>
+			<label for="psw"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required> <br>
+			<label>
+			<input type="checkbox" checked="checked" name="remember"> Remember me</label><br>
+			<br>
+			<button type="submit" class="form-button" onclick="window.location.href='AccountPage.html';">Login</button> <br>
+			<br>
+			<button type="button" class="cancel-button">Cancel</button>
+			
+		</div> <br>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <span class="psw">Forgot <a href="Account Recovery.html">password?</a></span>
+	<br>
+	<span class> No account, <a href="Account Creation.html"> create an account!</a> or continue as Guest </span>
+	
+  </div>
+	</form>
+	
+	</main>
+	
+	<!-- Footer -->
+	
+	<footer>
+		<p>All information presented on this site belongs to Tech Consolidators, 
+		a Senior Project from Monroe College
+		&copy; 2022</p>
+	</footer>
+
+</body>
+</html>

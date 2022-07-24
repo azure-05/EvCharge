@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="icon" href="img/tabicon.png">
+    <title>Shopping Cart | EvCharge</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="addToCart.js"></script>
+</head>
+
+<body>
+<!-- Header Element -->
+	<header>
+	<div class="navigation">
+		<a href="index.html"> <img src="img/EvChargeLogo.png" alt="logo" class="logo"> </a>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="OnlineStore.html">Online Store</a></li>
+			<li><a href="Map.html">Map</a></li>
+			<li><a href="support.html">Support</a> </li>
+			<li><a href="Login.html">Login</a></li>
+			<li> <a href="Cart.html"> <img src="img/Cart-Icon.png" width="50px"></a></li>
+		</ul>	
+	</nav>
+	
+	<hr>
+	</header>
+	
+	<main>
+	
+	<div  class="cart" id="cart">
+		<!--<div id="title">
+			<h1> Shopping Cart </h1>
+		</div> -->
+		
+		<h1>Shopping Cart</h1>
+		
+		<div class="cart-wrapper">
+
+			<div class="cart-item">
+				<img src="img/Charging-StationLite.jpg">
+				<div class="details">
+					<h3> Item Name </h3>
+				
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<span class="quantity"> Quantity: 1 </span>
+					<span class="price"> Price: $550.00 </span>
+					
+				</div>
+				
+				<div class="closemark" onclick="togglePopup()"><div class="cancel">&times;</div></div>
+			</div>
+			
+			
+			<div class="cart-item">
+				<img src="img/Charging-StationLite.jpg">
+				<div class="details">
+					<h3> Item Name </h3>
+				
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<span class="quantity"> Quantity: 1 </span>
+					<span class="price"> Price: $550.00 </span>
+					
+				</div>
+				
+				<div class="closemark" onclick="togglePopup()"><div class="cancel">&times;</div></div>
+			</div>
+		</div>
+		
+		<div class="subtotal">Subtotal: $0.00</div>
+		<div class="checkout">
+		<button class="checkout-btn" onclick="window.location.href='CheckoutInformation.html';">Checkout</button>
+		</div>
+		
+		
+	</div>
+	
+	</main>
+	
+	<!-- Footer -->
+	
+	<footer>
+		<p>All information presented on this site belongs to Tech Consolidators, 
+		a Senior Project from Monroe College
+		&copy; 2022</p>
+	</footer>
+
+</body>
+</html>

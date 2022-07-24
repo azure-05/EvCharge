@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="icon" href="img/tabicon.png">
+    <title>Checkout - Payment | EvCharge</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="addToCart.js"></script>
+</head>
+
+<body>
+<!-- Header Element -->
+	<header>
+	<div class="navigation">
+		<a href="index.html"> <img src="img/EvChargeLogo.png" alt="logo" class="logo"> </a>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="OnlineStore.html">Online Store</a></li>
+			<li><a href="Map.html">Map</a></li>
+			<li><a href="support.html">Support</a> </li>
+			<li><a href="Login.html">Login</a></li>
+			<li> <a href="Cart.html"> <img src="img/Cart-Icon.png" width="50px"></a></li>
+		</ul>	
+	</nav>
+	
+	<hr>
+	</header>
+	
+	<main>
+	<h1> Checkout </h1>
+	<div class="form">
+	
+		<form action="action_page.php" method="post">
+		
+			<h2> Payment Information </h2>
+		
+	
+			<label for="credit"><b>Credit Card Number:</b></label><br>
+			<input class="styleinput" type="number" name="credit" required> <br>
+			<br>
+			<label for="SecurityCode"><b>Security Code:</b></label><br>
+			<input placeholder="***" type="number" name="SecurityCode" required> <br>
+			<br>
+			<label for="ExDate"><b>Expiration Date:</b></label><br>
+			<input type="number" placeholder="MM/YY" name="ExDate" required> <br>
+			<br>
+			
+			<button class="form-button">Order now</button> <br>
+			<br>
+			<button type="button" class="cancel-button" onclick="window.location.href='Cart.html';">Cancel</button>
+	
+		</form>
+	</div>
+	
+	</main>
+	
+	<!-- Footer -->
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<footer>
+		<p>All information presented on this site belongs to Tech Consolidators, 
+		a Senior Project from Monroe College
+		&copy; 2022</p>
+	</footer>
+
+</body>
+</html>

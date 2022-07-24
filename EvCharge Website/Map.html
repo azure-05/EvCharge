@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="icon" href="img/tabicon.png">
+    <title>Map | EvCharge</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		
+		$(document).ready(function() {
+			$(".hide").hide();
+			$(".Location-NY").hover(function(){
+				$(".NY-txt").fadeIn(300);
+			});
+			
+			
+		});
+
+		$(document).ready(function() {
+		$(".hide").hide();
+			$(".Location-PA").hover(function(){
+			$(".hide").hide();
+				$(".PA-txt").fadeIn(300);
+			});
+		});
+
+		$(document).ready(function() {
+		$(".hide").hide();
+			$(".Location-NC").hover(function(){
+			$(".hide").hide();
+				$(".NC-txt").fadeIn(300);
+			});
+		});
+
+		$(document).ready(function() {
+		$(".hide").hide();
+			$(".Location-FL").hover(function(){
+			$(".hide").hide();
+				$(".FL-txt").fadeIn(300);
+			});
+		});
+
+		$(document).ready(function() {
+		$(".hide").hide();
+			$(".Location-CA").hover(function(){
+			$(".hide").hide();
+				$(".CA-txt").fadeIn(300);
+			});
+		});
+		
+		$(document).ready(function() {
+		$(".hide").hide();
+			$(".Location-TX").hover(function(){
+			$(".hide").hide();
+				$(".TX-txt").fadeIn(300);
+			});
+		});
+		
+		$(document).ready(function() {
+		$(".hide").hide();
+			$(".Location-OH").hover(function(){
+			$(".hide").hide();
+				$(".OH-txt").fadeIn(300);
+			});
+		});
+		
+		$(document).ready(function() {
+		$(".hide").hide();
+			$(".Location-IL").hover(function(){
+			$(".hide").hide();
+				$(".IL-txt").fadeIn(300);
+			});
+		});
+		
+		$(document).ready(function() {
+		$(".hide").hide();
+			$(".Location-CO").hover(function(){
+			$(".hide").hide();
+				$(".CO-txt").fadeIn(300);
+			});
+		});
+		
+		$(document).ready(function() {
+		$(".hide").hide();
+			$(".Location-WA").hover(function(){
+			$(".hide").hide();
+				$(".WA-txt").fadeIn(300);
+			});
+		});
+		
+</script>
+
+
+</head>
+
+<body>
+	<!-- Header Element -->
+	<header>
+	<div class="navigation">
+		<a href="index.html"> <img src="img/EvChargeLogo.png" alt="logo" class="logo"> </a>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="OnlineStore.html">Online Store</a></li>
+			<li><a href="Map.html">Map</a></li>
+			<li><a href="support.html">Support</a> </li>
+			<li><a href="Login.html">Login</a></li>
+			<li> <a href="Cart.html"> <img src="img/Cart-Icon.png" width="50px"></a></li>
+		</ul>	
+	</nav>
+	
+	<hr>
+	</header>
+	
+	
+	
+	<main>
+		<h1>Find a location</h1>
+		<p> Click the following location points from each state to obtain the available self-charging station spots </p>
+		<div class="Map">
+		
+			<img src="img/US-Map.png">
+			
+				<div class="Location-NY"> 
+					<img src="img/Point-Icon-NY.png" width="42px" height="52px">
+				</div>
+				
+				<div class="Location-PA">
+					<img src="img/Point-Icon-PA.png" width="42px" height="52px">
+				</div>
+				
+				<div class="Location-NC">
+					<img src="img/Point-Icon-NC.png" width="42px" height="52px">
+				</div>
+				
+				<div class="Location-FL">
+					<img src="img/Point-Icon-FL.png" width="42px" height="52px">
+				</div>
+				
+				<div class="Location-CA">
+					<img src="img/Point-Icon-CA.png" width="42px" height="52px">
+				</div>
+				
+				<div class="Location-TX">
+					<img src="img/Point-Icon-TX.png" width="42px" height="52px">
+				</div>
+				
+				<div class="Location-OH">
+					<img src="img/Point-Icon-OH.png" width="42px" height="52px">
+				</div>
+				
+				<div class="Location-IL">
+					<img src="img/Point-Icon-IL.png" width="42px" height="52px">
+				</div>
+				
+				<div class="Location-CO">
+					<img src="img/Point-Icon-CO.png" width="42px" height="52px">
+				</div>
+				
+				<div class="Location-WA">
+					<img src="img/Point-Icon-WA.png" width="42px" height="52px">
+				</div>
+					
+		</div>
+		
+	</div>
+		
+		
+		<!--Popup texts for maps to be hidden-->
+		<div class="NY-txt hide"> 
+			<h3>New York</h3>
+			<p>See Available Locations</p>
+		</div>
+		
+		<div class="PA-txt hide"> 
+			<h3>Pennsylvania</h3>
+			<p>See Available Locations</p>
+		</div>
+		
+		<div class="NC-txt hide"> 
+			<h3>North Carolina</h3>
+			<p>See Available Locations</p>
+		</div>
+		
+		<div class="FL-txt hide"> 
+			<h3>Florida</h3>
+			<p>See Available Locations</p>
+		</div>
+		
+		<div class="CA-txt hide"> 
+			<h3>California</h3>
+			<p>See Available Locations</p>
+		</div>
+		
+		<div class="TX-txt hide"> 
+			<h3>Texas</h3>
+			<p>See Available Locations</p>
+		</div>
+		
+		<div class="OH-txt hide"> 
+			<h3>Ohio</h3>
+			<p>See Available Locations</p>
+		</div>
+		
+		<div class="IL-txt hide"> 
+			<h3>Illinois</h3>
+			<p>See Available Locations</p>
+		</div>
+		
+		<div class="CO-txt hide"> 
+			<h3>Colorado</h3>
+			<p>See Available Locations</p>
+		</div>
+		
+		<div class="WA-txt hide"> 
+			<h3>Washington</h3>
+			<p>See Available Locations</p>
+		</div>
+		
+		<div class="NY-List">
+		<h1> New York </h1>
+			
+			<ul>
+				<li class="Self-title"> Self-Charging Stations</li>
+			
+				<ul>
+					 <li><a target="_blank" href="https://goo.gl/maps/T57XXfSXmVcHvjKb7"> 100 E 151st St, The Bronx, NY 10451 </a></li> 
+					 <li><a target="_blank" href="https://goo.gl/maps/UXgDW98wXprkH6wf8"> 200 Baychester Ave, The Bronx, NY 10475 </a></li> 
+					 <li><a target="_blank" href="https://goo.gl/maps/fP3PTULpkb9g83VH8"> 79th St Transverse, New York, NY 10024 </a></li> 
+				</ul>
+				
+			</ul>
+
+			<ul>
+				<li class="Office-tittle"> Our Local Offices </li>
+				
+				<ul>
+					<li> <a href="https://goo.gl/maps/kyZkasaNn42izTuL8">1890 Park Ave, New York, NY 10035 </a> </li>
+					<li> <a href="https://goo.gl/maps/B7QvLnUqUrBCHLaA7">1730 Cross Bronx Expy, Bronx, NY 10472, NY 10472 </a> </li>
+				</ul>
+			
+			</ul>
+		</div>
+		
+		<div class="PA-List">
+		<h1>Pennsylvania</h1>
+			<ul>
+				<li class="Self-title"> Self-Charging Stations </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/bV8a8ARwA4KCcBCW7"> 750 Providence Rd, Scranton, PA 18508 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/4Js8GjcRFJ4DYt9n8"> Arch St, Philadelphia, PA 19102 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/MzQzfM5XxK85MSCv7"> 516-500 W Baltimore Pike, Clifton Heights, PA 19018 </a></li>
+				</ul>
+				
+			</ul>
+
+			<ul>
+				<li class="Office-tittle"> Our Local Offices </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/7ThrEjqm16tyhVAT9"> 116-122 Clinton Ave, State College, PA 16803 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/zfs7gMjkuVrmMyV76"> 215 Innovation Blvd, State College, PA 16803 </a></li> 
+				</ul>
+				
+			</ul>	
+			
+		</div>
+		
+		<div class="NC-List">
+		<h1> North Carolina </h1>
+			<ul>
+				<li class="Self-title"> Self-Charging Stations </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/jnecvhPUfyLWUgHZ9"> 201 Park at N Hills St, Raleigh, NC 27609 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/gmBELVxNwr57xgQz8"> 233 S Wilmington St, Raleigh, NC 27601 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/rxZsE3pJJ6cWwHNbA"> 222 Glenwood Ave, Raleigh, NC 27603</a></li>
+				</ul>
+				
+			</ul>
+			
+			<ul>
+				<li class="Office-tittle"> Our Local Offices </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/8Kr1h2MJsu21vZ5WA"> 2837 Wake Forest Rd, Raleigh, NC 27609 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/uM3mBq9nUhwNDFK47"> 4120 Glenwood Ave, Raleigh, NC 27612 </a></li> 
+				</ul>
+				
+			</ul>	
+			
+		</div>
+		
+		<div class="FL-List">
+		<h1>Florida</h1>
+			<ul>
+				<li class="Self-title"> Self-Charging Stations </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/t4vRSVMXhUYUzpFN8"> 11551 International Dr, Orlando, FL 32821 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/pq6854EoCPiQeKY56"> 14501 Grove Resort Ave, Winter Garden, FL 34787 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/mSzRDhQCr4A1EVaC7"> Cross Prairie Pkwy, Kissimmee, FL 34744 </a></li> 
+				</ul>
+			
+			</ul>
+			
+			<ul>
+				<li class="Office-tittle"> Our Local Offices </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/LThKeWA6gzQvT66NA"> 8800 S Orange Ave, Orlando, FL 32824 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/mbWpgh9ZML7AYvPL6"> 5502 Central Florida Pkwy, Orlando, FL 32821 </a></li> 
+				</ul>
+				
+			</ul>	
+			
+			
+		</div>
+		
+		<div class="CA-List">
+		<h1>California</h1>	
+			<ul>
+				<li class="Self-title"> Self-Charging Stations </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/KPJy9oigAbMuCYni8"> 695 Herndon Ave, Clovis, CA 93612 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/ZDZr5C6jYnuSYwZp6"> 41169 Goodwin Way, Madera, CA 93636 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/hK8FyW6a2s9W6HuB7"> 4343 W Herndon Ave, Fresno, CA 93722 </a></li> 
+				</ul>
+			
+			</ul>
+			
+			<ul>
+				<li class="Office-tittle"> Our Local Offices </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/gnZmuAWZyPQfU52z6"> 7505 N Willow Ave, Clovis, CA 93612 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/LhiiGC11anVdDVN3A"> 1459 W Olive Ave, Fresno, CA 93728 </a></li> 
+				</ul>
+				
+			</ul>	
+			
+		</div>
+		
+		<div class="TX-List">
+		<h1>Texas</h1>	
+			<ul>
+				<li class="Self-title"> Self-Charging Stations </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/LhBTC7mwmgLhRqSF6"> 2302 W Holcombe Blvd, Houston, TX 77030 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/QSvAWJFCNZfAcDim7"> 801 S Riverfront Blvd #5207, Dallas, TX 75207</a></li> 
+					<li><a target="_blank" href="https://g.page/leos-full-service-automotive?share"> 1149 ½ Airport Blvd., Austin, TX, 78702 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/3vpoooCPYK9XJaRa6"> 527 W Cevallos, San Antonio, TX 78204 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/jbRQk62AMT2frvt68"> 100 N Nichols St, Fort Worth, TX 76102 </a></li> 
+				</ul>
+			
+			</ul>
+			
+			<ul>
+				<li class="Office-tittle"> Our Local Offices </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/fwhWFJavoGYgjLGw6"> 2617 Bissonnet St # 200, Houston, TX 77005 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/CbnQtxBF8fYkyzek9"> 3838 Oak Lawn Ave Suite L-100, Dallas, TX 75219 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/dAFnJhFjiMSJHnxK8"> 3300 N Interstate Hwy 35, Austin, TX 78705 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/KXZq5nbzKpjWa3M36"> 85 NE Interstate 410 Loop Suite 130, San Antonio, TX 78216 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/bwcyNB5VhaXgcXKf7"> 505 Main St floor 5, Fort Worth, TX 76102 </a></li>
+					
+				</ul>
+				
+			</ul>	
+			
+		</div>
+		
+		<div class="OH-List">
+		<h1>Ohio</h1>	
+			<ul>
+				<li class="Self-title"> Self-Charging Stations </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/YLm8N7Nsgd71nKCV8"> 3038 W 117th St, Cleveland, OH 44111 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/HWcmhtCC1owQsiMf7"> 959 Parsons Ave, Columbus, OH 43206 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/dbUBqF38XKGWM9Bw9"> 3337 Clifton Ave, Cincinnati, OH 45220 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/JNGz8MtY8GgVGzw37"> 1224 S Main St, Dayton, OH 45409 </a></li>		
+					<li><a target="_blank" href="https://goo.gl/maps/3V2DzN4SU3Amzytj9"> 822 Monroe St, Toledo, OH 43604 </a></li>	
+				</ul>
+			
+			</ul>
+			
+			<ul>
+				<li class="Office-tittle"> Our Local Offices </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/ExuDMRBs3tZGMm4B7"> 850 Euclid Ave, Cleveland, OH 44114 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/RrxaWEVXDkS5Mxoe8"> 629 N High St, Columbus, OH 43215 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/K53tjiNosM5RzuNr9"> 1435 Vine St, Cincinnati, OH 45202 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/CJxDj5yzmnvqyNudA"> 31 S Main St, Dayton, OH 45402 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/CKc3pbapHkwmFEdP6"> 151 N Michigan St, Toledo, OH 43604 </a></li>
+				</ul>
+				
+			</ul>	
+			
+		</div>
+		
+		<div class="IL-List">
+		<h1>Illinois</h1>	
+			<ul>
+				<li class="Self-title"> Self-Charging Stations </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/h7TocS8NhhrX6Ncw6"> 5458 S Wells St, Chicago, IL 60609 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/XL1iJfHUWHJp5B8J9"> 1290 Illinois Rte 59, Naperville, IL 60540 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/ZMJs6iK1EhedNkku9"> 2112 Ogden Ave, Aurora, IL 60504 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/33vMd7JGeng2K4fJ6"> 5810 E State St, Rockford, IL 61108 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/BvcKjmL4Ehjy98X89"> 600 N 9th St, Springfield, IL 62702 </a></li> 
+				</ul>
+			
+			</ul>
+			
+			<ul>
+				<li class="Office-tittle"> Our Local Offices </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://g.page/620nlasalle?share"> 620 N La Salle St, Chicago, IL 60654 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/qdXdfxCUJ3JMAYzs5"> 29 S Webster St, Naperville, IL 60540 </a></li> 
+					<li><a target="_blank" href="https://g.page/Bureaugravity?share"> 56 S Lasalle St, Aurora, IL 60505 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/6gNmkXFYTnyuyZSUA"> 5702 Elaine Dr # 5906, Rockford, IL 61108 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/mxYf4evcvuyN3cQG6"> 427 E Monroe St Ste 302, Springfield, IL 62701 </a></li> 
+				</ul>
+				
+			</ul>	
+			
+		</div>
+		
+		<div class="CO-List">
+		<h1>Colorado</h1>	
+			<ul>
+				<li class="Self-title"> Self-Charging Stations </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/bqREcqsWMPYXkjcv7"> 3490 Park Ave W, Denver, CO 80216 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/vR4ipiSr2G49DuJq6"> 1433 S Tejon St, Colorado Springs, CO 80906 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/GUN6VEx4SW3c5i2d6"> 1595 55th St, Boulder, CO 80303 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/uyTudUyKcy9eGucJ7"> 1500 E Mulberry St, Fort Collins, CO 80524 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/7xAnq4C5WkSFAsd47"> 121 Aspen Airport Business Center #4, Aspen, CO 81611 </a></li> 
+				</ul>
+			
+			</ul>
+			
+			<ul>
+				<li class="Office-tittle"> Our Local Offices </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/GuYnX1zvL8DMNeTo9"> 1000 E Colfax Ave, Denver, CO 80218 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/zq8jB4VXcf8CYeWCA"> 723 N Weber St, Colorado Springs, CO 80903 </a></li> 
+					<li><a target="_blank" href="https://g.page/kilnboulder?share"> 2101 Pearl St, Boulder, CO 80302 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/jKJTJHwYigZ6oYMz9"> 1730 S College Ave, Fort Collins, CO 80525 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/PTibP1Nmj8hCtptZA"> 1824 Woodmoor Dr, Monument, CO 80132 </a></li>
+				</ul>
+				
+			</ul>	
+			
+		</div>
+		
+		<div class="WA-List">
+		<h1>Washington</h1>	
+			<ul>
+				<li class="Self-title"> Self-Charging Stations </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://goo.gl/maps/8PUy8cCNWdbqnyiD7"> 620 Denny Way, Seattle, WA 98109 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/VrVV8YRRQbSV2iUz6"> 665 23rd Ave, Seattle, WA 98122 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/epHuPYazGzoPhNVf6"> 932 W 3rd Ave, Spokane, WA 99201 </a></li>
+					<li><a target="_blank" href="https://goo.gl/maps/EsyjFqMS4yKSoy1C8"> 5407 Tacoma Mall Blvd, Tacoma, WA 98409 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/BpsV7qgHcHQxt7XD9"> 7204 NE Fourth Plain Blvd, Vancouver, WA 98662 </a></li> 
+				</ul>
+			
+			</ul>
+			
+			<ul>
+				<li class="Office-tittle"> Our Local Offices </li>
+				
+				<ul> 
+					<li><a target="_blank" href="https://g.page/thepioneercollective?share"> 92 Lenora St, Seattle, WA 98121 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/wNjXsZnQCJueuogP7"> 600 1st Ave, Seattle, WA 98104 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/EixoQToR2X8gBx3S6"> 505 W Riverside Ave, Spokane, WA 99201 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/NvHLHExynigkSGTc8"> 15 S Oregon Ave, Tacoma, WA 98409 </a></li> 
+					<li><a target="_blank" href="https://goo.gl/maps/JQ1ZmyiaHE9Rc65Z9"> 3303 NE 44th St, Vancouver, WA 98663 </a></li> 
+				</ul>
+				
+			</ul>	
+			
+		</div>
+			
+		</main>
+	
+	<!-- Footer -->
+	
+	<footer>
+		<p>All information presented on this site belongs to Tech Consolidators, 
+		a Senior Project from Monroe College
+		&copy; 2022</p>
+	</footer>
+
+</body>
+</html>
